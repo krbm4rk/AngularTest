@@ -21,17 +21,17 @@ import { ShippingComponent } from './shipping/shipping.component';
     RouterModule.forRoot([
       { path: '', component: ProductListComponent },
       { path: 'products/:productId', component: ProductDetailsComponent },
-      { path: 'cart', component: CartComponent },
+      { path: 'cart', component: CartComponent }
     ])
   ],
   declarations: [
     AppComponent,
     TopBarComponent,
     ProductListComponent,
+    ShippingComponent,
     ProductAlertsComponent,
     ProductDetailsComponent,
-    CartComponent,
-    ShippingComponent,
+    CartComponent
   ],
   bootstrap: [
     AppComponent
